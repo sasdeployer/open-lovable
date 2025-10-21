@@ -1,0 +1,11 @@
+application:
+  name: "open-lovable"
+  pods:
+    - name: "frontend"
+      image: "registry.nexlayer.io/open-lovable:latest"
+      path: "/"
+      servicePorts: [3000]
+      vars:
+        NODE_ENV: "production"
+        PORT: "3000"
+        HOSTNAME: "0.0.0.0"
