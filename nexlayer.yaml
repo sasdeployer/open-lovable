@@ -1,0 +1,9 @@
+application:
+  name: fine-jade-open-lovable
+  pods:
+    - name: app
+      image: "# filled by pipeline"
+      path: /
+      servicePorts:
+        - 3000
+      vars: {}
